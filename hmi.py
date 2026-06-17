@@ -771,3 +771,4 @@ else:
 log("HMI v2.0 ready. Awaiting operator command.", "info")
 
 root.mainloop()
+#change commit

@@ -201,3 +201,5 @@ class InfluxReader:
                     stations[name] = {"status": rec.values.get("status", "OK")}
                 stations[name][rec.get_field()] = rec.get_value()
         return stations
+
+#change commit
